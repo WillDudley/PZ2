@@ -1,5 +1,4 @@
-import pz2 as pz
-from pz2.classic.TicTacToe.TicTacToe import TicTacToeEnv
+from pz2.classic.TicTacToe import TicTacToeEnv
 env = TicTacToeEnv()
 observation, info = env.reset(seed=42)
 
